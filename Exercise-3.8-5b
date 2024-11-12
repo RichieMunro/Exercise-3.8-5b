@@ -1,0 +1,3 @@
+for num  in ["12","10","32","3","66","17","42","99","20"]: #Remember: String with numbers need to be converted to Integers
+    print(num, int(num) ** 2) #Solution: We used int(num) to convert each num from a string to an integer before adding it to the total. Python requires consistent data types for arithmetic operations. Converting strings to integers using int() allows you to perform mathematical operations on them.
+
